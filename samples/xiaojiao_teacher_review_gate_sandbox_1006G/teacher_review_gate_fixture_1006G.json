@@ -1,0 +1,43 @@
+{
+    "stage_code":  "1006G_TEACHER_REVIEW_GATE_SANDBOX",
+    "fixture_type":  "teacher_review_gate_sandbox",
+    "review_queue":  [
+                         "handout_patch_pending_review",
+                         "section_revision_patch_pending_review"
+                     ],
+    "patch_preview":  [
+                          "handout_preview",
+                          "section_revision_preview"
+                      ],
+    "available_teacher_actions":  [
+                                      "teacher_accept_patch",
+                                      "teacher_reject_patch",
+                                      "teacher_request_revision"
+                                  ],
+    "audit_trail":  [
+                        "patch_created",
+                        "review_opened",
+                        "fixture_action_recorded"
+                    ],
+    "rollback_available":  true,
+    "real_teacher_review_required":  true,
+    "formal_apply_requires_teacher_decision":  true,
+    "system_cannot_auto_accept":  true,
+    "teacher_accept_patch_is_fixture_action_not_real_business_approval":  true,
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
