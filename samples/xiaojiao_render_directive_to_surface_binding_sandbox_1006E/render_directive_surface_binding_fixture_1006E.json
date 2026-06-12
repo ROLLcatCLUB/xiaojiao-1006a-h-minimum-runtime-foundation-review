@@ -1,0 +1,111 @@
+{
+    "stage_code":  "1006E_RENDER_DIRECTIVE_TO_SURFACE_BINDING_SANDBOX",
+    "fixture_type":  "render_directive_surface_binding_sandbox",
+    "render_directives":  [
+                              {
+                                  "directive_id":  "light_entry_directive",
+                                  "surface_mode":  "light_entry",
+                                  "primary_object":  "lesson_L003",
+                                  "supporting_objects":  [
+                                                             "handout_L003",
+                                                             "rubric_L003"
+                                                         ],
+                                  "visible_zones":  [
+                                                        "primary",
+                                                        "supporting",
+                                                        "agent_notes"
+                                                    ],
+                                  "hidden_zones":  [
+                                                       "grid_studio",
+                                                       "analysis_board"
+                                                   ],
+                                  "agent_notes":  [
+
+                                                  ],
+                                  "available_actions":  [
+                                                            "confirm",
+                                                            "defer",
+                                                            "generate_handout_candidate"
+                                                        ],
+                                  "review_required_objects":  [
+                                                                  "patch_handout_L003"
+                                                              ]
+                              },
+                              {
+                                  "directive_id":  "focus_surface_directive",
+                                  "surface_mode":  "focus_surface",
+                                  "primary_object":  "lesson_L003",
+                                  "supporting_objects":  [
+                                                             "handout_L003",
+                                                             "rubric_L003"
+                                                         ],
+                                  "visible_zones":  [
+                                                        "primary",
+                                                        "supporting",
+                                                        "agent_notes"
+                                                    ],
+                                  "hidden_zones":  [
+                                                       "grid_studio",
+                                                       "analysis_board"
+                                                   ],
+                                  "agent_notes":  [
+
+                                                  ],
+                                  "available_actions":  [
+                                                            "confirm",
+                                                            "defer",
+                                                            "generate_handout_candidate"
+                                                        ],
+                                  "review_required_objects":  [
+                                                                  "patch_handout_L003"
+                                                              ]
+                              },
+                              {
+                                  "directive_id":  "guided_flow_directive",
+                                  "surface_mode":  "guided_flow",
+                                  "primary_object":  "lesson_L003",
+                                  "supporting_objects":  [
+                                                             "handout_L003",
+                                                             "rubric_L003"
+                                                         ],
+                                  "visible_zones":  [
+                                                        "primary",
+                                                        "supporting",
+                                                        "agent_notes"
+                                                    ],
+                                  "hidden_zones":  [
+                                                       "grid_studio",
+                                                       "analysis_board"
+                                                   ],
+                                  "agent_notes":  [
+
+                                                  ],
+                                  "available_actions":  [
+                                                            "confirm",
+                                                            "defer",
+                                                            "generate_handout_candidate"
+                                                        ],
+                                  "review_required_objects":  [
+                                                                  "patch_handout_L003"
+                                                              ]
+                              }
+                          ],
+    "static_surface_reads_directive":  true,
+    "real_frontend_modified":  false,
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
