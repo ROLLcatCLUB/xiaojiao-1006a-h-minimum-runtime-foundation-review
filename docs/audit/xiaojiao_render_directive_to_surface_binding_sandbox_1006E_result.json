@@ -1,0 +1,27 @@
+{
+    "stage_code":  "1006E_RENDER_DIRECTIVE_TO_SURFACE_BINDING_SANDBOX",
+    "final_status":  "XIAOJIAO_RENDER_DIRECTIVE_TO_SURFACE_BINDING_SANDBOX_PASS",
+    "pass":  true,
+    "marker":  "ALL_1006E_RENDER_DIRECTIVE_TO_SURFACE_BINDING_SANDBOX_CHECKS_OK",
+    "sandbox_or_contract_only":  true,
+    "validator_no_arg_pass":  true,
+    "validator_root_pass":  true,
+    "manifest_zip_alignment_pass":  true,
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       },
+    "next_stage":  "1006F_MODEL_CANDIDATE_TO_WORK_OBJECT_PATCH_SANDBOX_PENDING_REVIEW"
+}
