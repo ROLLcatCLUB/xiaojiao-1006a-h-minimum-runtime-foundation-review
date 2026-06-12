@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006H_MINIMUM_RUNTIME_FOUNDATION_END_TO_END_DRY_RUN",
+    "final_status":  "XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_END_TO_END_DRY_RUN_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.md",
+                        "docs/foundation/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.json",
+                        "samples/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H/minimum_runtime_foundation_e2e_dry_run_1006H.json",
+                        "docs/audit/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_result.json",
+                        "docs/audit/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_report.md",
+                        "docs/audit_packages/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_manifest.json",
+                        "scripts/validate_xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.md",
+                        "size":  517,
+                        "sha256":  "AD1CEA4B9CBA6EA01BF58B24F58C264C577258B2F2E9D3368EC47161356AF026"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.json",
+                        "size":  1917,
+                        "sha256":  "2BA2E2C04D0760E63B002DF980CE51462CAE4DA15D424EDEF2416819D1936A16"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H/minimum_runtime_foundation_e2e_dry_run_1006H.json",
+                        "size":  2631,
+                        "sha256":  "9A744A97C00722D60591A421B57CBD249FF8ECEE24CF620671148CE80014B3FD"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_result.json",
+                        "size":  1471,
+                        "sha256":  "D0337E4550F78F7A3C383457977C130B09F6B2C1EC883604C3CB0256E11EC782"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_report.md",
+                        "size":  453,
+                        "sha256":  "4363448FBC7BD7D008C6AD27EAF94C4781320AEF98A4564B1C141F7365EFF571"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_minimum_runtime_foundation_end_to_end_dry_run_1006H.py",
+                        "size":  5541,
+                        "sha256":  "4F396B583CBFFB58447A71B710EDCCDCC99FF35D49C7A5BB7699FA6A304738FB"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
