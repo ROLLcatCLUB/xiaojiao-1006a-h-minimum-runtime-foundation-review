@@ -1,0 +1,58 @@
+{
+    "stage_code":  "1006D_INTENT_SUGGESTION_COMPOSER_RULE_RUNTIME_SANDBOX",
+    "fixture_type":  "intent_suggestion_composer_rule_runtime_sandbox",
+    "cases":  [
+                  {
+                      "teacher_input":  "今天要做什么",
+                      "parsed_intent":  "view_today",
+                      "token_cost":  0,
+                      "action_gate_result":  "allowed_state_query",
+                      "composer_result":  {
+                                              "surface":  "today_sequence"
+                                          }
+                  },
+                  {
+                      "teacher_input":  "确认这个草稿",
+                      "parsed_intent":  "confirm_current",
+                      "token_cost":  0,
+                      "action_gate_result":  "allowed_state_update",
+                      "state_update":  "lesson_status_confirmed"
+                  },
+                  {
+                      "teacher_input":  "学习单那个先弄一下",
+                      "parsed_intent":  "ambiguous",
+                      "clarification_card":  {
+                                                 "options":  [
+                                                                 "generate_handout",
+                                                                 "view_handout_status"
+                                                             ]
+                                             },
+                      "teacher_selected":  "generate_handout",
+                      "confirmed_intent":  "generate_handout"
+                  },
+                  {
+                      "system_event":  "pending_draft_detected",
+                      "suggestion_result":  {
+                                                "token_cost":  0,
+                                                "source":  "structured_template",
+                                                "attached_to":  "lesson_L003"
+                                            }
+                  }
+              ],
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
