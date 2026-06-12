@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006F_MODEL_CANDIDATE_TO_WORK_OBJECT_PATCH_SANDBOX",
+    "final_status":  "XIAOJIAO_MODEL_CANDIDATE_TO_WORK_OBJECT_PATCH_SANDBOX_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.md",
+                        "docs/foundation/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.json",
+                        "samples/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F/model_candidate_to_work_object_patch_fixture_1006F.json",
+                        "docs/audit/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_result.json",
+                        "docs/audit/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_report.md",
+                        "docs/audit_packages/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_manifest.json",
+                        "scripts/validate_xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.md",
+                        "size":  515,
+                        "sha256":  "36ADE52801AEDA61C46F311F4531E17A82C805B26E1FAFBC3AC6131EED4BABD9"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.json",
+                        "size":  1920,
+                        "sha256":  "FC18839D435FC5747483FFF00C29AC9D66C5F58F7E3DFC861FB4444F3E99B075"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F/model_candidate_to_work_object_patch_fixture_1006F.json",
+                        "size":  3929,
+                        "sha256":  "D0C18A4577E9C400978FB57C22A884BEAAE31DCB369F997AC070DFEC61912562"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_result.json",
+                        "size":  1473,
+                        "sha256":  "3E06BF6591AFC9BA587EEBF2EB8BC0286E7B8920170D399FDA251B98E2328AC5"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_report.md",
+                        "size":  450,
+                        "sha256":  "FE14E17A49D5FD12687E6864227356D158E028159764311980EB38F4A57E5FC8"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_model_candidate_to_work_object_patch_sandbox_1006F.py",
+                        "size":  5543,
+                        "sha256":  "D8E5560228BD443FD63C9536F03F8F0B670D3FED0852DB5CB1E0C1C553D70225"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
