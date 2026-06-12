@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_business_pack_and_work_object_registry_sandbox_1006C",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006C_BUSINESS_PACK_AND_WORK_OBJECT_REGISTRY_SANDBOX",
+    "final_status":  "XIAOJIAO_BUSINESS_PACK_AND_WORK_OBJECT_REGISTRY_SANDBOX_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.md",
+                        "docs/foundation/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.json",
+                        "samples/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C/business_pack_work_object_registry_fixture_1006C.json",
+                        "docs/audit/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_result.json",
+                        "docs/audit/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_report.md",
+                        "docs/audit_packages/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_manifest.json",
+                        "scripts/validate_xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.md",
+                        "size":  519,
+                        "sha256":  "E6C63F49FA591EB12438B7189DD14A2F839B3A2D0764F0EA5CCFB892E448FDC7"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.json",
+                        "size":  1944,
+                        "sha256":  "62AA76FD6573E8132B3C7E1DF9C2391DED202A4E76ADDB1AB259F730DFE04ECB"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C/business_pack_work_object_registry_fixture_1006C.json",
+                        "size":  5927,
+                        "sha256":  "A1B96F014354AFB7C2FF3359EB8A68398065F0A6E124B3148D98FB4353520D58"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_result.json",
+                        "size":  1499,
+                        "sha256":  "86F88DF3051BCF83687CA6120F8C2C9DB2FAD49306BDEC6B5AB4BEF4EB57C036"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_report.md",
+                        "size":  456,
+                        "sha256":  "FDBCF63FA307CEDA0A1C3CD52A73F89D89064370C375C29A22205AAAE338744D"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_business_pack_and_work_object_registry_sandbox_1006C_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_business_pack_and_work_object_registry_sandbox_1006C.py",
+                        "size":  5549,
+                        "sha256":  "207E901E4CAE0CC4C0A2568C0080BB5966578F2833E24FCA63F441A036FA29F6"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
