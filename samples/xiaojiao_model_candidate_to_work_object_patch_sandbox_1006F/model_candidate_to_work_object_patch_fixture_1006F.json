@@ -1,0 +1,68 @@
+{
+    "stage_code":  "1006F_MODEL_CANDIDATE_TO_WORK_OBJECT_PATCH_SANDBOX",
+    "fixture_type":  "model_candidate_to_work_object_patch_sandbox",
+    "flows":  [
+                  {
+                      "action":  "generate_handout",
+                      "confirmed_intent":  "generate_handout",
+                      "context_pack":  "trimmed_current_lesson_context",
+                      "model_candidate_request":  {
+                                                      "provider_called":  false,
+                                                      "model_called":  false
+                                                  },
+                      "simulated_candidate_result":  {
+                                                         "generated_content_is_simulated":  true
+                                                     },
+                      "schema_validation":  "pass",
+                      "work_object_patch":  {
+                                                "patch_id":  "patch_generate_handout",
+                                                "review_status":  "pending_teacher_review",
+                                                "applied":  false
+                                            },
+                      "teacher_review_required":  true,
+                      "direct_formal_write":  false,
+                      "database_written":  false,
+                      "memory_written":  false,
+                      "frontend_direct_update":  false
+                  },
+                  {
+                      "action":  "revise_lesson_section",
+                      "confirmed_intent":  "revise_lesson_section",
+                      "context_pack":  "trimmed_current_lesson_context",
+                      "model_candidate_request":  {
+                                                      "provider_called":  false,
+                                                      "model_called":  false
+                                                  },
+                      "simulated_candidate_result":  {
+                                                         "generated_content_is_simulated":  true
+                                                     },
+                      "schema_validation":  "pass",
+                      "work_object_patch":  {
+                                                "patch_id":  "patch_revise_lesson_section",
+                                                "review_status":  "pending_teacher_review",
+                                                "applied":  false
+                                            },
+                      "teacher_review_required":  true,
+                      "direct_formal_write":  false,
+                      "database_written":  false,
+                      "memory_written":  false,
+                      "frontend_direct_update":  false
+                  }
+              ],
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
