@@ -1,0 +1,90 @@
+{
+    "stage_code":  "1006C_BUSINESS_PACK_AND_WORK_OBJECT_REGISTRY_SANDBOX",
+    "fixture_type":  "business_pack_work_object_registry_sandbox",
+    "business_pack_registry":  [
+                                   {
+                                       "business_pack_id":  "teaching_plan_pack",
+                                       "supported_surface_modes":  [
+                                                                       "guided_flow"
+                                                                   ],
+                                       "work_object_types":  [
+                                                                 "semester_plan"
+                                                             ],
+                                       "allowed_actions":  [
+                                                               "generate_plan_candidate",
+                                                               "confirm_plan"
+                                                           ],
+                                       "default_render_policy":  "guided_steps",
+                                       "default_context_policy":  "semester_scope_trimmed",
+                                       "review_gate_policy":  "teacher_review_required"
+                                   },
+                                   {
+                                       "business_pack_id":  "lesson_design_pack",
+                                       "supported_surface_modes":  [
+                                                                       "focus_surface"
+                                                                   ],
+                                       "work_object_types":  [
+                                                                 "lesson_design",
+                                                                 "handout",
+                                                                 "rubric"
+                                                             ],
+                                       "allowed_actions":  [
+                                                               "confirm_draft",
+                                                               "defer_current",
+                                                               "request_generate_handout"
+                                                           ],
+                                       "default_render_policy":  "primary_lesson_focus",
+                                       "default_context_policy":  "current_lesson_scope",
+                                       "review_gate_policy":  "teacher_review_required"
+                                   },
+                                   {
+                                       "business_pack_id":  "resource_library_pack",
+                                       "supported_surface_modes":  [
+                                                                       "support_layer",
+                                                                       "resource_drawer",
+                                                                       "resource_picker"
+                                                                   ],
+                                       "work_object_types":  [
+                                                                 "resource_ref"
+                                                             ],
+                                       "allowed_actions":  [
+                                                               "search_resource",
+                                                               "select_resource_ref"
+                                                           ],
+                                       "default_render_policy":  "drawer_picker",
+                                       "default_context_policy":  "resource_refs_only",
+                                       "review_gate_policy":  "no_formal_apply_without_teacher"
+                                   },
+                                   {
+                                       "business_pack_id":  "classroom_teaching_studio_pack",
+                                       "supported_surface_modes":  [
+                                                                       "future_placeholder"
+                                                                   ],
+                                       "future_only":  true
+                                   }
+                               ],
+    "work_object_registry":  [
+                                 "semester_plan",
+                                 "today_work_items",
+                                 "lesson_design",
+                                 "handout",
+                                 "rubric",
+                                 "resource_ref"
+                             ],
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
