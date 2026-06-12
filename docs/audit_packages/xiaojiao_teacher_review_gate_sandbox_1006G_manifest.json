@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_teacher_review_gate_sandbox_1006G",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006G_TEACHER_REVIEW_GATE_SANDBOX",
+    "final_status":  "XIAOJIAO_TEACHER_REVIEW_GATE_SANDBOX_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_teacher_review_gate_sandbox_1006G.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_teacher_review_gate_sandbox_1006G.md",
+                        "docs/foundation/xiaojiao_teacher_review_gate_sandbox_1006G.json",
+                        "samples/xiaojiao_teacher_review_gate_sandbox_1006G/teacher_review_gate_fixture_1006G.json",
+                        "docs/audit/xiaojiao_teacher_review_gate_sandbox_1006G_result.json",
+                        "docs/audit/xiaojiao_teacher_review_gate_sandbox_1006G_report.md",
+                        "docs/audit_packages/xiaojiao_teacher_review_gate_sandbox_1006G_manifest.json",
+                        "scripts/validate_xiaojiao_teacher_review_gate_sandbox_1006G.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_teacher_review_gate_sandbox_1006G.md",
+                        "size":  481,
+                        "sha256":  "CF2D3812876F63D6CD7B687658A76DBF6C4D56BE6079922DA82AB8FA905E402E"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_teacher_review_gate_sandbox_1006G.json",
+                        "size":  1904,
+                        "sha256":  "EF8942FCCBCE73AEED210F1C34F70B4947D08D964AD4B33CF3B34F19BCE7B9AA"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_teacher_review_gate_sandbox_1006G/teacher_review_gate_fixture_1006G.json",
+                        "size":  2121,
+                        "sha256":  "492B580581737C6FAA06E0DBA9CAEC0C7475490ECCABA2360ED1D1BC7CC77D2B"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_teacher_review_gate_sandbox_1006G_result.json",
+                        "size":  1440,
+                        "sha256":  "50A6C04BC426111589EF9E6DC6A8BAEEC34535E028DC6CFF4FA214CAA4EDBC2F"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_teacher_review_gate_sandbox_1006G_report.md",
+                        "size":  399,
+                        "sha256":  "36E454C1DB0E967021B44796609B231773170AC2C12B1480665FABDE153D9026"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_teacher_review_gate_sandbox_1006G_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_teacher_review_gate_sandbox_1006G.py",
+                        "size":  5458,
+                        "sha256":  "27328C694BA4E856B9BE2B076AABFCAECC0A1109592C07507385FB0E482BA092"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
