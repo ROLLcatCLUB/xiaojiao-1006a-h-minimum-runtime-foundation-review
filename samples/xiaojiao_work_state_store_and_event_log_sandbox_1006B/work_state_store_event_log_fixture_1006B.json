@@ -1,0 +1,173 @@
+{
+    "stage_code":  "1006B_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX",
+    "fixture_type":  "work_state_store_event_log_sandbox",
+    "initial_work_state":  {
+                               "teacher_id":  "teacher_art_001",
+                               "review_queue":  [
+
+                                                ],
+                               "pending_suggestions":  [
+
+                                                       ],
+                               "today_lessons":  [
+                                                     "lesson_L003"
+                                                 ],
+                               "current_focus":  null
+                           },
+    "event_log":  [
+                      {
+                          "event_id":  "evt_open_workbench",
+                          "event_type":  "open_workbench",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_view_today",
+                          "event_type":  "view_today",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_detect_pending_draft",
+                          "event_type":  "detect_pending_draft",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_confirm_draft",
+                          "event_type":  "confirm_draft",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_defer_current",
+                          "event_type":  "defer_current",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_request_generate_handout",
+                          "event_type":  "request_generate_handout",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_candidate_patch_created",
+                          "event_type":  "candidate_patch_created",
+                          "append_only":  true
+                      },
+                      {
+                          "event_id":  "evt_teacher_review_pending",
+                          "event_type":  "teacher_review_pending",
+                          "append_only":  true
+                      }
+                  ],
+    "state_after_each_event":  [
+                                   {
+                                       "event":  "open_workbench",
+                                       "sequence":  1,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  1,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "view_today",
+                                       "sequence":  2,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  2,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "detect_pending_draft",
+                                       "sequence":  3,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  3,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "confirm_draft",
+                                       "sequence":  4,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  4,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "defer_current",
+                                       "sequence":  5,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  5,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "request_generate_handout",
+                                       "sequence":  6,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  6,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "candidate_patch_created",
+                                       "sequence":  7,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  7,
+                                       "teacher_review_pending":  false
+                                   },
+                                   {
+                                       "event":  "teacher_review_pending",
+                                       "sequence":  8,
+                                       "changed_fields":  [
+                                                              "current_focus",
+                                                              "pending_suggestions",
+                                                              "review_queue"
+                                                          ],
+                                       "work_state_version":  8,
+                                       "teacher_review_pending":  true
+                                   }
+                               ],
+    "invariant_checks":  {
+                             "event_append_only":  true,
+                             "current_focus_updated":  true,
+                             "work_state_updated_from_events":  true,
+                             "real_database_written":  false,
+                             "pending_suggestions_updated":  true,
+                             "teacher_review_pending_expressible":  true
+                         },
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
