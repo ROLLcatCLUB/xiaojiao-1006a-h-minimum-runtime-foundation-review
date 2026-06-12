@@ -1,0 +1,50 @@
+{
+    "stage_code":  "1006H_MINIMUM_RUNTIME_FOUNDATION_END_TO_END_DRY_RUN",
+    "fixture_type":  "minimum_runtime_foundation_e2e_dry_run",
+    "timeline":  [
+                     "teacher opens Xiaojiao",
+                     "Work State loaded",
+                     "today work appears",
+                     "pending lesson draft detected",
+                     "structured suggestion attached",
+                     "teacher says 今天要做什么",
+                     "Composer refreshes today surface",
+                     "teacher confirms current draft",
+                     "lesson status updated",
+                     "teacher says 学习单那个先弄一下",
+                     "clarification card appears",
+                     "teacher selects generate handout",
+                     "model_candidate_request created",
+                     "simulated candidate result returned",
+                     "work_object_patch created",
+                     "teacher_review_required reached",
+                     "system stops before formal apply"
+                 ],
+    "final_state":  {
+                        "teacher_review_required":  true,
+                        "real_frontend_modified":  false,
+                        "model_called":  false,
+                        "database_written":  false,
+                        "memory_written":  false,
+                        "formal_apply_performed":  false,
+                        "Feishu_written":  false,
+                        "provider_called":  false
+                    },
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       },
+    "next_stage":  "TEACHER_REVIEW_REQUIRED_BEFORE_REAL_APPLY"
+}
