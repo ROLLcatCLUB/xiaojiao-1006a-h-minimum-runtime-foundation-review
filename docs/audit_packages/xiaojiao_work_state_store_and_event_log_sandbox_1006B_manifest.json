@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_work_state_store_and_event_log_sandbox_1006B",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006B_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX",
+    "final_status":  "XIAOJIAO_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_work_state_store_and_event_log_sandbox_1006B.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_work_state_store_and_event_log_sandbox_1006B.md",
+                        "docs/foundation/xiaojiao_work_state_store_and_event_log_sandbox_1006B.json",
+                        "samples/xiaojiao_work_state_store_and_event_log_sandbox_1006B/work_state_store_event_log_fixture_1006B.json",
+                        "docs/audit/xiaojiao_work_state_store_and_event_log_sandbox_1006B_result.json",
+                        "docs/audit/xiaojiao_work_state_store_and_event_log_sandbox_1006B_report.md",
+                        "docs/audit_packages/xiaojiao_work_state_store_and_event_log_sandbox_1006B_manifest.json",
+                        "scripts/validate_xiaojiao_work_state_store_and_event_log_sandbox_1006B.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_work_state_store_and_event_log_sandbox_1006B.md",
+                        "size":  503,
+                        "sha256":  "7BFA4421600756503533F4188A617B5382C26AF5F8B974B353B8FEEFFBA4F575"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_work_state_store_and_event_log_sandbox_1006B.json",
+                        "size":  1927,
+                        "sha256":  "0DABFC4B79E8D7CCEFCF90BD5DAE69640EADB02A79F25E3DDECC2C0F154F7B4F"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_work_state_store_and_event_log_sandbox_1006B/work_state_store_event_log_fixture_1006B.json",
+                        "size":  9758,
+                        "sha256":  "738EA6E09E2C1BCF6B4A1F08F435B1930EE0795DB9990DA07729B94ADB153317"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_work_state_store_and_event_log_sandbox_1006B_result.json",
+                        "size":  1474,
+                        "sha256":  "4CE17288C21F265022AD23C1E64AAC6D5213D88003B19D43D7220327D22F6654"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_work_state_store_and_event_log_sandbox_1006B_report.md",
+                        "size":  432,
+                        "sha256":  "CAB066E0E69C67DB14329C499283214034347AC3BB936259A60AD42496096E31"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_work_state_store_and_event_log_sandbox_1006B_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_work_state_store_and_event_log_sandbox_1006B.py",
+                        "size":  5509,
+                        "sha256":  "36F0E54AF47A40982434A8A5295A498E04BD0F5E186F208B8472645400592889"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
