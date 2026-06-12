@@ -1,0 +1,31 @@
+{
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006B_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX",
+    "stage_type":  "minimum_runtime_sandbox_or_contract_only",
+    "final_status_target":  "XIAOJIAO_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX_PASS",
+    "source_gate":  {
+                        "positioning":  "teacher_work_state_driven_intelligent_organization_system",
+                        "requires_1005A":  "XIAOJIAO_PRODUCT_POSITIONING_AND_DIFFERENTIATION_CONTRACT_PASS",
+                        "source_files":  [
+                                             "docs/foundation/xiaojiao_product_positioning_and_differentiation_contract_1005A.json"
+                                         ]
+                    },
+    "hard_boundaries":  {
+                            "real_provider_model_call":  false,
+                            "api_key_configured":  false,
+                            "real_database_written":  false,
+                            "real_memory_written":  false,
+                            "Feishu_written":  false,
+                            "formal_export_created":  false,
+                            "real_frontend_runtime_modified":  false,
+                            "teacher_control_runtime_connected":  false,
+                            "public_display_runtime_connected":  false,
+                            "student_runtime_connected":  false,
+                            "production_generation_performed":  false,
+                            "formal_writeback_performed":  false,
+                            "teacher_decision_simulated_as_final_approval":  false,
+                            "real_resource_library_connected":  false
+                        },
+    "final_stop":  "TEACHER_REVIEW_REQUIRED_BEFORE_REAL_APPLY",
+    "next_stage":  "1006C_BUSINESS_PACK_AND_WORK_OBJECT_REGISTRY_SANDBOX_PENDING_REVIEW"
+}
