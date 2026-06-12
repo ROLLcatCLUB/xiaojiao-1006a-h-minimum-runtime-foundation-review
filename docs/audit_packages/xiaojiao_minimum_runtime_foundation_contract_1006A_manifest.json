@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_minimum_runtime_foundation_contract_1006A",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006A_MINIMUM_RUNTIME_FOUNDATION_CONTRACT",
+    "final_status":  "XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_CONTRACT_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_minimum_runtime_foundation_contract_1006A.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_minimum_runtime_foundation_contract_1006A.md",
+                        "docs/foundation/xiaojiao_minimum_runtime_foundation_contract_1006A.json",
+                        "samples/xiaojiao_minimum_runtime_foundation_contract_1006A/minimum_runtime_foundation_sample_1006A.json",
+                        "docs/audit/xiaojiao_minimum_runtime_foundation_contract_1006A_result.json",
+                        "docs/audit/xiaojiao_minimum_runtime_foundation_contract_1006A_report.md",
+                        "docs/audit_packages/xiaojiao_minimum_runtime_foundation_contract_1006A_manifest.json",
+                        "scripts/validate_xiaojiao_minimum_runtime_foundation_contract_1006A.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_minimum_runtime_foundation_contract_1006A.md",
+                        "size":  497,
+                        "sha256":  "A7182B3A8A3BB359DAF720A427A8A75132F1367FE2D243E3EA328327B8108842"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_minimum_runtime_foundation_contract_1006A.json",
+                        "size":  3144,
+                        "sha256":  "208C5B77D078F171958BA5020875066A0BEC7502AF5A0296C53F623DEE94F01B"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_minimum_runtime_foundation_contract_1006A/minimum_runtime_foundation_sample_1006A.json",
+                        "size":  3030,
+                        "sha256":  "DD50ED83F1BA01B98C8A441361D6F99BD1BCE5EC676CA0CD1C3C38FE439B216B"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_minimum_runtime_foundation_contract_1006A_result.json",
+                        "size":  1457,
+                        "sha256":  "57B38791E4892D4877A5801DE4C3159D48C07F416F8D67A2B345315BA8C8840A"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_minimum_runtime_foundation_contract_1006A_report.md",
+                        "size":  423,
+                        "sha256":  "5840EC3C41D8C3E7E65AAC302268C8F598C499A0B6668865B455F0B6B577B706"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_minimum_runtime_foundation_contract_1006A_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_minimum_runtime_foundation_contract_1006A.py",
+                        "size":  5496,
+                        "sha256":  "5D40B9B74BAA4CDB2E6C729CA8D30B087E4C0FBBB91D09218367C4ADA7378135"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
