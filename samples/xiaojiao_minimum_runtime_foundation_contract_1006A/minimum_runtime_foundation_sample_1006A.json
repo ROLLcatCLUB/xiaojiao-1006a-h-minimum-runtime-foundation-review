@@ -1,0 +1,62 @@
+{
+    "stage_code":  "1006A_MINIMUM_RUNTIME_FOUNDATION_CONTRACT",
+    "fixture_type":  "minimum_runtime_foundation_contract_sample",
+    "modules":  [
+                    "Work State Store",
+                    "Event Log",
+                    "Work Object Store",
+                    "Business Pack Registry",
+                    "Intent Runtime",
+                    "Suggestion Runtime",
+                    "Composer Runtime",
+                    "Render Directive",
+                    "Model Candidate Pipeline",
+                    "Work Object Patch",
+                    "Teacher Review Gate",
+                    "Action Gate"
+                ],
+    "runtime_loop":  [
+                         "event",
+                         "Work State update",
+                         "Action Gate",
+                         "Composer",
+                         "Render Directive",
+                         "Surface projection",
+                         "Suggestion update"
+                     ],
+    "generation_loop":  [
+                            "confirmed_intent",
+                            "model_candidate_request",
+                            "candidate_result",
+                            "work_object_patch",
+                            "teacher_review_gate",
+                            "apply_or_reject"
+                        ],
+    "first_runnable_scenario":  [
+                                    "teacher opens Xiaojiao",
+                                    "system shows today work",
+                                    "one lesson draft pending confirmation",
+                                    "teacher confirms or defers",
+                                    "Work State updates",
+                                    "suggestion changes",
+                                    "handout model_candidate_request",
+                                    "simulated candidate result to patch",
+                                    "teacher review gate"
+                                ],
+    "boundary_flags":  {
+                           "real_provider_model_call":  false,
+                           "api_key_configured":  false,
+                           "real_database_written":  false,
+                           "real_memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "teacher_control_runtime_connected":  false,
+                           "public_display_runtime_connected":  false,
+                           "student_runtime_connected":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false,
+                           "teacher_decision_simulated_as_final_approval":  false,
+                           "real_resource_library_connected":  false
+                       }
+}
