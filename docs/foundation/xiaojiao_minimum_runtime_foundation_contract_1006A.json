@@ -1,0 +1,55 @@
+{
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006A_MINIMUM_RUNTIME_FOUNDATION_CONTRACT",
+    "stage_type":  "minimum_runtime_sandbox_or_contract_only",
+    "final_status_target":  "XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_CONTRACT_PASS",
+    "source_gate":  {
+                        "positioning":  "teacher_work_state_driven_intelligent_organization_system",
+                        "requires_1005A":  "XIAOJIAO_PRODUCT_POSITIONING_AND_DIFFERENTIATION_CONTRACT_PASS",
+                        "source_files":  [
+                                             "docs/foundation/xiaojiao_product_positioning_and_differentiation_contract_1005A.json"
+                                         ]
+                    },
+    "hard_boundaries":  {
+                            "real_provider_model_call":  false,
+                            "api_key_configured":  false,
+                            "real_database_written":  false,
+                            "real_memory_written":  false,
+                            "Feishu_written":  false,
+                            "formal_export_created":  false,
+                            "real_frontend_runtime_modified":  false,
+                            "teacher_control_runtime_connected":  false,
+                            "public_display_runtime_connected":  false,
+                            "student_runtime_connected":  false,
+                            "production_generation_performed":  false,
+                            "formal_writeback_performed":  false,
+                            "teacher_decision_simulated_as_final_approval":  false,
+                            "real_resource_library_connected":  false
+                        },
+    "final_stop":  "TEACHER_REVIEW_REQUIRED_BEFORE_REAL_APPLY",
+    "next_stage":  "1006B_WORK_STATE_STORE_AND_EVENT_LOG_SANDBOX_PENDING_REVIEW",
+    "required_modules":  [
+                             "Work State Store",
+                             "Event Log",
+                             "Work Object Store",
+                             "Business Pack Registry",
+                             "Intent Runtime",
+                             "Suggestion Runtime",
+                             "Composer Runtime",
+                             "Render Directive",
+                             "Model Candidate Pipeline",
+                             "Work Object Patch",
+                             "Teacher Review Gate",
+                             "Action Gate"
+                         ],
+    "principles":  [
+                       "Work State is backend core asset",
+                       "frontend is projection of Work State",
+                       "model output cannot directly write formal objects",
+                       "teacher review is hard gate before formal apply",
+                       "all actions pass action gate",
+                       "light tasks do not enter grid studio",
+                       "complex tasks can enter studio or board",
+                       "resource library is support layer"
+                   ]
+}
