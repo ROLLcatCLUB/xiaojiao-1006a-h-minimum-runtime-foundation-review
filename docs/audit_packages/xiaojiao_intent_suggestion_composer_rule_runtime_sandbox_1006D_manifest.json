@@ -1,0 +1,78 @@
+{
+    "package_name":  "xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D",
+    "package_code":  "1006_XIAOJIAO_MINIMUM_RUNTIME_FOUNDATION_PACKAGE",
+    "stage_code":  "1006D_INTENT_SUGGESTION_COMPOSER_RULE_RUNTIME_SANDBOX",
+    "final_status":  "XIAOJIAO_INTENT_SUGGESTION_COMPOSER_RULE_RUNTIME_SANDBOX_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  7,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/foundation/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.md",
+                        "docs/foundation/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.json",
+                        "samples/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D/intent_suggestion_composer_rule_runtime_fixture_1006D.json",
+                        "docs/audit/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_result.json",
+                        "docs/audit/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_report.md",
+                        "docs/audit_packages/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_manifest.json",
+                        "scripts/validate_xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/foundation/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.md",
+                        "size":  521,
+                        "sha256":  "7A2191C233DFAB757A2F16C0D5C5CDC6D95E61110BC37B7E8B9A28D8EE8E36E0"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.json",
+                        "size":  1942,
+                        "sha256":  "DBDDE7D1B3F7B95869CBE817302A1EDF9FF68C2045FD82CBBE0BE8CB1543C44B"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D/intent_suggestion_composer_rule_runtime_fixture_1006D.json",
+                        "size":  3075,
+                        "sha256":  "2821634E2D3613EF591D30FEADD6BEAD02EDAAB1E5284D882A999D2BA3C792E8"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_result.json",
+                        "size":  1498,
+                        "sha256":  "E1DDCA4530C166707E5CDA9F5271688A6D94F292CB050A62855BCECC8556FC60"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_report.md",
+                        "size":  459,
+                        "sha256":  "9C582B0B9642BBD699CF0C6D234C719909AC6FF12E31566291AC69FB04352E4A"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_intent_suggestion_composer_rule_runtime_sandbox_1006D.py",
+                        "size":  5558,
+                        "sha256":  "CD3E5781AA6881B9A95E9D3FC9EA93CA877CD3BE839F7969362FD9C6C448F970"
+                    }
+                ],
+    "boundary":  {
+                     "real_provider_model_call":  false,
+                     "api_key_configured":  false,
+                     "real_database_written":  false,
+                     "real_memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_runtime_modified":  false,
+                     "teacher_control_runtime_connected":  false,
+                     "public_display_runtime_connected":  false,
+                     "student_runtime_connected":  false,
+                     "production_generation_performed":  false,
+                     "formal_writeback_performed":  false,
+                     "teacher_decision_simulated_as_final_approval":  false,
+                     "real_resource_library_connected":  false
+                 }
+}
